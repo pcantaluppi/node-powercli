@@ -1,2 +1,2 @@
 # node-powercli
-Node.js Image with VMware PowerCLI
+Ubuntu Image with Node.js and VMware PowerCLI
