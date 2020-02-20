@@ -1,4 +1,4 @@
 # Node.js Image with VMware PowerCLI
 FROM ubuntu:18.04
 MAINTAINER Pascal Cantaluppi <pascal.cantaluppi@gmail.com>
-RUN apt update && apt upgrade -y && ap install nodejs -y && apt install npm -y 
+RUN apt update && apt upgrade -y && apt install -y build-essential && apt install -y nodejs && apt install -y npm && apt install -y git
