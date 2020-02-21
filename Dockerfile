@@ -1,4 +1,4 @@
 # Node.js Image with VMware PowerCLI
-FROM ubuntu:18.04
+FROM 7.0.0-rc.2-arm32v7-ubuntu-bionic
 MAINTAINER Pascal Cantaluppi <pascal.cantaluppi@gmail.com>
-RUN apt update && apt upgrade -y && apt install -y build-essential && apt install -y nodejs && apt install -y npm && apt install -y git && apt install curl && wget -q https://packages.microsoft.com/config/ubuntu/18.04/packages-microsoft-prod.deb && dpkg -i packages-microsoft-prod.deb && apt update && apt install -y powershell
+RUN apt update && apt upgrade -y && apt install -y build-essential && apt install -y nodejs && apt install -y npm && apt install -y git 
